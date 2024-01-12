@@ -1,0 +1,23 @@
+<html>
+    <head>
+    
+    </head>
+    <body>
+
+        <!-- blog/templates/blog/blog_list.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+        <!-- Your blog post HTML here -->
+    {% endfor %}
+{% endblock %}
+
+{% block services %}
+    {% for service in services %}
+        <!-- Your service HTML here -->
+    {% endfor %}
+{% endblock %}
+
+    </body>
+</html>
